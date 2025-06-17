@@ -1,0 +1,43 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Data and model files (large files)
+data/**/*.*
+!data/.gitkeep  # 保留空目录结构
+models/**/*.*
+!models/.gitkeep
+
+# Results directories
+rf_results/**/*
+!rf_results/.gitkeep
+svm_results/**/*
+!svm_results/.gitkeep
+
+# Environment and IDE
+.venv/
+env/
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks
+*.ipynb_checkpoints/
+
+# Sensitive data
+.env
+*.key
+*.pem

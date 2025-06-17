@@ -1,0 +1,40 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Data directories
+data/
+results/
+
+# Detector outputs (assuming generated files)
+detector/outputs/
+detector/checkpoints/
+
+# Environment and IDE
+.venv/
+env/
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+
+# Sensitive data
+.env
+config.py  # 配置文件可能包含敏感信息
+secrets.py
+*.key
+*.pem
+
+# Editor temporary files
+*~
+*.swp
+*.swo
