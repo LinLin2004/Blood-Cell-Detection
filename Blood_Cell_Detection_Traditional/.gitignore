@@ -29,7 +29,7 @@ Thumbs.db
 
 # Sensitive data
 .env
-config.py  # 配置文件可能包含敏感信息
+config.py  
 secrets.py
 *.key
 *.pem
