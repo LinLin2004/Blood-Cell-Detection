@@ -1,0 +1,5 @@
+train: /home/smbu/junior/ISP/BloodCellDetection/YOLOv6/data/images/train
+val: /home/smbu/junior/ISP/BloodCellDetection/YOLOv6/data/images/val
+is_coco: False
+nc : 3
+names: ['Platelet','RBC', 'WBC' ]
